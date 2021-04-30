@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F7609E81263B578F00C49868 /* Track_My_ExpensesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609E80263B578F00C49868 /* Track_My_ExpensesApp.swift */; };
-		F7609E83263B578F00C49868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609E82263B578F00C49868 /* ContentView.swift */; };
+		F7609E83263B578F00C49868 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609E82263B578F00C49868 /* Expense.swift */; };
 		F7609E85263B579400C49868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7609E84263B579400C49868 /* Assets.xcassets */; };
 		F7609E88263B579400C49868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7609E87263B579400C49868 /* Preview Assets.xcassets */; };
+		F7609E93263B8D6600C49868 /* AddNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609E92263B8D6600C49868 /* AddNew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7609E7D263B578F00C49868 /* Track My Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Track My Expenses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7609E80263B578F00C49868 /* Track_My_ExpensesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track_My_ExpensesApp.swift; sourceTree = "<group>"; };
-		F7609E82263B578F00C49868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7609E82263B578F00C49868 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		F7609E84263B579400C49868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7609E87263B579400C49868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7609E89263B579400C49868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7609E92263B8D6600C49868 /* AddNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				F7609E80263B578F00C49868 /* Track_My_ExpensesApp.swift */,
-				F7609E82263B578F00C49868 /* ContentView.swift */,
+				F7609E82263B578F00C49868 /* Expense.swift */,
+				F7609E92263B8D6600C49868 /* AddNew.swift */,
 				F7609E84263B579400C49868 /* Assets.xcassets */,
 				F7609E89263B579400C49868 /* Info.plist */,
 				F7609E86263B579400C49868 /* Preview Content */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7609E83263B578F00C49868 /* ContentView.swift in Sources */,
+				F7609E83263B578F00C49868 /* Expense.swift in Sources */,
+				F7609E93263B8D6600C49868 /* AddNew.swift in Sources */,
 				F7609E81263B578F00C49868 /* Track_My_ExpensesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
